@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="board" class="com.ohgiraffers.common.BoardDTO">
+        <constructor-arg index="0" value="99"/>
+        <constructor-arg name="title" value="hello world"/>
+        <constructor-arg index="2" value="HelloWorld"/>
+        <constructor-arg name="writer" value="강동영"/>
+    </bean>
+
+</beans>
